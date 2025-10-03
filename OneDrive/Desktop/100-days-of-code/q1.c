@@ -1,15 +1,9 @@
 //Write a program to input two numbers and display their sum.
 # include<stdio.h>
-# include<conio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    int m;
-    scanf("%d",&m);
-    int c;
-    c=n+m;
-    printf("%d",c);
-    getch();
+    int n1,n2;
+    scanf("%d %d",&n1,&n2);
+    printf("%d",n1+n2);
     return 0;
 }
